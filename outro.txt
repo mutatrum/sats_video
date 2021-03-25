@@ -1,0 +1,4 @@
+ffconcat version 1.0
+file 'output/img-2021-03-22.png'
+duration 5
+file 'output/img-2021-03-22.png'

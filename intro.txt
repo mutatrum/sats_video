@@ -1,0 +1,12 @@
+ffconcat version 1.0
+file 'img-intro1.png'
+duration 1
+file 'img-intro2.png'
+duration 1
+file 'img-intro3.png'
+duration 4
+file 'img-intro4.png'
+duration 6
+file 'output/img-2013-03-24.png'
+duration 2
+file 'output/img-2013-03-24.png'
