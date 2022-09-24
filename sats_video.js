@@ -31,11 +31,11 @@ createInto();
 var f = fs.readFileSync('data.json');
 var data = JSON.parse(f);
 var date = new Date(data.since);
-for (var i in data.bitcoin) {
+for (var i in data.prices) {
 
   // Using the lowest future price to determine the size of the dots to prevens flipping between multiple scalings
-  var min_price = Math.min(...data.bitcoin.slice(i));
-  onSchedule(data.bitcoin[i], min_price, date.toISOString().substring(0, 10));
+  var min_price = Math.min(...data.prices.slice(i));
+  onSchedule(data.prices[i], min_price, date.toISOString().substring(0, 10));
   date.setDate(date.getDate() + 1);
 }
 

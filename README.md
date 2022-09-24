@@ -21,7 +21,7 @@ Create output folder
 
 Get price data
 
-`wget hodl.camp/data.json`
+`wget hodl.camp/api/bitcoin/prices -O data.json`
 
 Run code to generate video frames, this takes a while and needs ~200MB of diskplace.
 
